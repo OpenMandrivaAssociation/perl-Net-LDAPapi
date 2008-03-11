@@ -10,6 +10,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/%{module}-%{version}.tar.gz
+BuildRequires:	openldap-devel
 %if %{?mdkversion:1}%{?!mdkversion:0}
 BuildRequires:	perl-devel >= 5.8.0
 %endif
