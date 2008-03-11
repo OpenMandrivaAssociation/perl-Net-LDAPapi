@@ -16,6 +16,7 @@ BuildRequires:	perl-devel >= 5.8.0
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
+Perl bindings for LDAP client library
 
 %prep
 
