@@ -5,7 +5,7 @@
 Summary:	Perl bindings for LDAP client library
 Name:		perl-%{module}
 Version:	3.0.3
-Release:	%mkrel 3
+Release:	4
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
