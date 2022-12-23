@@ -15,6 +15,7 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/%{module}-%{version}.
 BuildRequires:	openldap-devel
 BuildRequires:	glibc-devel
 BuildRequires:	perl-devel >= 5.8.0
+BuildRequires:	pkgconfig(libsasl2)
 
 %description
 Perl bindings for LDAP client library
