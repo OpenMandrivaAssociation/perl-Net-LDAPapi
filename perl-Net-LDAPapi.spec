@@ -7,7 +7,7 @@
 Summary:	Perl bindings for LDAP client library
 Name:		perl-%{module}
 Version:	3.0.7
-Release:	3
+Release:	4
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		https://metacpan.org/dist/%{module}/
