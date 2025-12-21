@@ -12,6 +12,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 URL:		https://metacpan.org/dist/%{module}/
 Source0:	https://cpan.metacpan.org/modules/by-module/Net/%{module}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	pkgconfig(ldap)
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	pkgconfig(libsasl2)
